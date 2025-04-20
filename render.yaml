@@ -2,7 +2,7 @@ services:
   - type: web
     name: my-telegram-bot
     env: python
-    buildCommand: ""
+    buildCommand: pip install -r requirements.txt
     startCommand: gunicorn bot:app
     envVars:
       - key: BOT_TOKEN
