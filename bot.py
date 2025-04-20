@@ -4,7 +4,7 @@ from telegram.ext import Dispatcher, CommandHandler, CallbackContext, CallbackQu
 
 import os
 
-TOKEN = 7635202405:AAE-tCdzreZG2ywTXoz-dJfYSWnuz3rS874  # <-- вставь сюда свой токен
+TOKEN = "7635202405:AAE-tCdzreZG2ywTXoz-dJfYSWnuz3rS874"  # <-- вставь сюда свой токен
 
 bot = Bot(token=TOKEN)
 app = Flask(__name__)
